@@ -1,0 +1,33 @@
+<html>
+    <head>
+<style>
+      h1{background-color: deepskyblue;
+         color: white;
+         display: inline-block;
+         padding: 5px;
+         font-size:3rem;
+         margin: 100px;
+         transform: scale(1.5);
+         }
+      h1:hover{transform: scale(1.5);
+         transform-origin: 100% 100%;
+         transition: all 1s;
+         }
+       a{font-size: 3rem;
+         display:inline-block;
+        /* transition-property:font-size transform;
+         transition-duration: 0.1s;
+         transition: 0.1s;*/
+         transition: font-size 1s, transform 0.1s;
+         
+         }
+         a:active{transform: translate(20px,20px);
+                  font-size: 2rem;
+                  }
+</style>
+    </head>
+    <body>
+         <h1>hello transform!</h1>
+         <a href="#">click</a>
+    </body>
+</html>
